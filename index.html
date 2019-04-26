@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+
+
+
+							<link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" type="text/css" href="animate/animate.css">
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  
+	
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript " src="js/bootstrap.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+  <style type="text/css">
+  	p{
+  		word-wrap: break-word;
+  	}
+  	h2{
+  		word-wrap: break-word;
+  	}
+  	li{
+  		word-wrap: break-word;
+  	}
+  </style>
+</head>
+<body>
+		<div class="alert alert-success" id="successmessage" style="display:none;">
+		<strong>Success!</strong> Your details have been send successfuly.
+		</div>
+		<div class="alert alert-danger" id="errormessage" style="display:none;">
+		<strong>Danger!</strong> An error occur while sending your details.
+		</div>
+		<div class="section01">
+		<nav class="navbar navbar-expand-md  navbar-light bg-light">
+			<div class="container">
+				<img src="images/rhvc.png">
+				 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header1">
+   				 <span class="navbar-toggler-icon"></span>
+ 				 </button>
+ 				 <div class="collapse navbar-collapse" id="header1">
+ 				 	<ul class="navbar-nav text-center ml-auto">
+      					<li class="nav-item">
+      					    <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#email">欢迎咨询</button>
+      					</li>
+      					<li class="nav-item" style="margin-left: 20px; margin-right: 10px;">
+      					
+      						<img src="images/icon.gif" style="width :30px;">
+      						
+      					</li>
+      					<li class="nav-item">
+      					
+      					
+      						<h3>+971 4 3990990</h3>
+      					</li>
+ 				 </div>
+			</div>
+		</nav>
+	</div>
+
+
+
+
+				<div class="section" style="background-image: url(images/header.jpg);background-size: cover;">
+					<div class="container article">
+
+						<div class="row">
+							<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 article1">
+								<h2 class="heading font-weight-bold display-4" style="color: white;">欢迎咨询</h2>
+								<ul class="list" style="color: white;font-size: 22px;"> 迪拜物业投资
+									<li>免税投资</li>
+									<li>高租金收益率</li>
+									<li>价格合理和无压力的付款计划</li>
+									<li>年投资者签证</li>
+									<li>投资者受迪拜法律保护</li>
+									<li>迪拜的各种期房项目</li>
+									<li>物业完工后升值空间大</li>
+								</ul>
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+				<div class="container"><!-- Default form register -->
+<form class="text-center border border-light p-5" style="background-color: #3F3E41;" action="function.php" name="registerationform" id="registerationform">
+
+	
+		 <p class=" mb-4 font-weight-bold" style="color: white;">请填写表格，我们的专家将与您联系
+    为您安排最佳时间与迪拜房地产专家咨询讨论您的投资目标。</p>
+
+	
+
+   
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- First name -->
+            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="名字" name="name">
+        </div>
+        <div class="col">
+            <!-- Last name -->
+            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="手机号码" name="lastname">
+        </div>
+    </div>
+
+    <!-- E-mail -->
+    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="微信号码" name="email">
+
+    <!-- Password -->
+    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="电子邮件地址" aria-describedby="defaultRegisterFormPasswordHelpBlock" name="pass">
+    
+    <!-- Newsletter -->
+    
+
+    <!-- Sign up button -->
+    <input class="btn btn-warning my-4 btn-block submitbtn"  type="button" value = "Submit" onclick="return sendcustomerformdata()">是否请求回电
+    <!-- <input class="btn btn-warning my-4 btn-block"  data-target="#email"  type="submit">是否请求回电 -->
+</form></div>
+    <!-- Social register --
+
+</form>
+<!-- Default form register -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+					<!-- Button trigger modal -->
+
+<!-- Modal -->
+
+
+
+
+					<div class="section2">
+					<div class="container-fluid ">
+						<div class="container">
+							
+									<h2 class="heading display-4 text-center font-weight-bold">这是您在迪拜的一条龙服务体验！</h2>
+									<p class="paragraph">迪拜皇室之家房地产本着厚德载物诚信为本的经营理念，以帮助投资者争取最大投资回报为使命，以投资者需求为中心，提供最满意和最诚恳的理财规划，充分赢得投资者的信赖。</p>
+									<p class="paragraph">皇室之家房地产为业主提供省时省力安全放心的托管、租售、物业、交易等一条龙服务。为投资者量身定制最佳投资计划。伊玛尔开发商在全球享誉盛名，以精致品质高价值投资回报为核心，成为国际投资者的首选。皇室之家房地产是伊玛尔开发商多年的紧密合作伙伴，这使我们可以获得最优惠的价格和最优质的的房源。</p>
+									  <div class="row">
+  	<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+  	<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 button1" >
+  		<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#email">现在拿起您的电话联系我们吧</button>
+  		<!-- Button trigger modal -->
+  	</div>
+  	<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+  </div> 
+
+								
+						</div>
+					</div>
+
+</div>
+
+
+
+							<!-- Modal -->
+<div class="modal fade" id="email" tabindex="-1" role="dialog" aria-labelledby="email"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h5 class="modal-title text-center"  id="email">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="modalformclose">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form action="function.php" method="post" class="text-center border border-light p-5" style="background-color: #3F3E41;" name="registerationform1" id="registerationform1">
+
+    <p class="h4 mb-4 font-weight-bold" style="color: white;">请填写表格，我们的专家将与您联系，为您安排最佳时间与迪拜房地产专家咨询讨论您的投资目标。</p>
+
+    <div class="form-row mb-4">
+        <div class="col">
+            <!-- First name -->
+            <input type="text" id="defaultRegisterFormFirstName1" name="name" class="form-control" placeholder="名字">
+        </div>
+        <div class="col">
+            <!-- Last name -->
+            <input type="text" id="defaultRegisterFormLastName1" name="lastname" class="form-control" placeholder="手机号码">
+        </div>
+    </div>
+
+    <!-- E-mail -->
+    <input type="email" id="defaultRegisterFormEmail1" name="email" class="form-control mb-4" placeholder="微信号码">
+
+    <!-- Password -->
+    <input type="password" id="defaultRegisterFormPassword1" name="pass" class="form-control" placeholder="电子邮件地址" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+    
+    <!-- Newsletter -->
+    
+
+    <!-- Sign up button -->
+    <input class="btn btn-warning my-4 btn-block submitbtn"  type="button" value = "Submit" onclick="return sendcustomerformdata1()">是否请求回电
+</form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+			
+
+
+
+
+
+						<div class="section3">
+							<div class="container-fluid">
+							<div class="row">
+								<div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 image">
+									<img src="images/Emaar_Beachfront.jpg" style="overflow: hidden;">
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+									<div class="container">
+									<h2 class="heading display-5 font-weight-bold">伊玛尔海滨尊邸</h2>
+										<p class="paragraph">伊玛尔海滨尊邸是一个独具特色的新的海滨区，拥有中东和北非地区最大的港湾，地理位置优越，位于朱美拉海滩别墅和朱美拉棕榈岛之间，该地区也被称为中东版的迈阿密式度假社区。伊玛尔海滨尊邸附近拥有近20所学校，并拥有14所医院和诊所。</p>
+										<li>只需要5％的首次预订押金</li>
+										<li>4年付款计划</li>
+										<li>4卧室公寓 精美建筑</li>
+										<li>海滨环境的巧妙结合完美诠释了海滨尊邸的意识形态</li>
+										<ul>起步价</ul>
+										<ul>欢迎咨询</ul>
+										<hr>
+										<ul>起步价</ul>
+										<div class="row ">
+											<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+												
+										<ul><h4>$ 6.1M</h4></ul>
+											</div>
+												<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 ">
+													<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#email">起步价</button>
+												</div>
+										</div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="section4">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+									<div class="container">
+									<h2 class="heading display-5 font-weight-bold">伊玛尔海滨尊邸</h2>
+										<p class="paragraph">伊玛尔海滨尊邸是一个独具特色的新的海滨区，拥有中东和北非地区最大的港湾，地理位置优越，位于朱美拉海滩别墅和朱美拉棕榈岛之间，该地区也被称为中东版的迈阿密式度假社区。伊玛尔海滨尊邸附近拥有近20所学校，并拥有14所医院和诊所。</p>
+										<ul>起步价</ul>
+										<ul>欢迎咨询</ul>
+										<li>仅需5％的首次预订押金</li>
+										<li>灵活的付款方案</li>
+										<li>4间卧室的公寓</li>
+										<li>新志性世界最高塔-迪拜云溪塔的所在地</li>
+										
+										<hr>
+										<ul>起步价</ul>
+										<div class="row">
+											<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+												
+										<ul><h4>$ 4.2M</h4></ul>
+											</div>
+												<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 ">
+													<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#email">起步价</button>
+												</div>
+										</div>
+</div>
+								</div>
+								<div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 image">
+									<img src="images/Dubai_Creek.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+						<div class="conatiner section5">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 image">
+									<img src="images/Blue_Waters.jpg">
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+									<div class="container">
+									<h2 class="heading display-5 font-weight-bold">伊玛尔海滨尊邸</h2>
+										<p class="paragraph">伊玛尔海滨尊邸是一个独具特色的新的海滨区，拥有中东和北非地区最大的港湾，地理位置优越，位于朱美拉海滩别墅和朱美拉棕榈岛之间，该地区也被称为中东版的迈阿密式度假社区。伊玛尔海滨尊邸附近拥有近20所学校，并拥有14所医院和诊所。</p>
+										<ul>起步价</ul>
+										<ul>欢迎咨询</ul>
+										<li>只需要5％的首次预订押金</li>
+										<li>4年付款计划</li>
+										<li>4卧室公寓 精美建筑</li>
+										<li>海滨环境的巧妙结合完美诠释了海滨尊邸的意识形态</li>
+										
+										<hr>
+										<ul>起步价</ul>
+										<div class="row">
+											<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+												
+										<ul><h4>$ 6.4M</h4></ul>
+											</div>
+												<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 ">
+													<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#email">起步价</button>
+												</div>
+											</div>
+										</div>
+
+								</div>
+								
+							</div>
+						</div>
+					</div>
+
+
+					<div class="section6">
+						<div class="container-fluid">
+							<h2 class="heading12 display-4 text-center font-weight-bold">为何投资迪拜房地产市场？</h2>
+							<div class="container"><p class="paragraph">今年迪拜超过伦敦成为2017年最受欢迎的房地产投资地点。迪拜拥有200多个国籍的外来人口，现在是一个拥有超过270万居民的大都市。它是世界的中心枢纽。</p>
+							<p class="paragraph">迪拜，现在被视为全球首选的期房投资地点，2016年有一些令人瞠目结舌的统计数据。迪拜国土部（DLD）的年度报告显示，共成交60,595套房地产交易，价值超过2590亿迪拉姆。今年136个国家的22,834名投资者投资了接近440亿迪拉姆的迪拜期房。这些数字在2017年再次上升，2017年上半年增长了16.8％，在其鼓舞人心和前瞻性的领导下，迪拜的发展似乎没有任何限制。</p>
+							<p class="paragraph">无论这是您的第一个迪拜期房投资，还是您已经得到高租金回报并且正在寻求扩大投资组合，或者您正在庆祝几年前投资的项目已经增值，迪拜皇室之家房地产都可以帮您。</p>
+							<p class="paragraph">开放的国家房产政策，全球买家均可自由购买永久产权的房产，迪拉姆与美元固定汇率，相当于配置美元资产。同时，迪拜无限制的购买政策也吸引了许多外来投资者。投资一百万迪拉姆以上房产，可获得居住签证，同时买家可帮自己的直属亲属申请同样的签证，子女可在迪拜上学。</p>
+							<p class="paragraph">我们今天生活在全球化的世界中，有很多机会通过投资来参与国家/地区的发展。迪拜是一个最佳的选择。您也可以通过购买房产成为这个快速增长的经济体的一部分。2020年世博会将在迪拜举办，预计将有2500万人前往阿联酋创造约30万个新工作岗位。在此期间，迪拜的房地产市场势必会出现大幅增长。那么，如果你正在考虑投资迪拜的房地产，现在是最佳时机！祝您在迪拜开启梦幻般的生活体验！</p></div>
+							<div class="aa">
+							<div class="row">
+								<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+								<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 article7_btn button1">
+									<button type="button" class="btn btn-warning " style="width: 200px;" data-toggle="modal" data-target="#email">预订投资电话</button>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+							</div>
+						</div>
+						</div>
+					</div>
+
+
+					<div class="section7">
+						<div class="container-fluid">
+							<h2 class="display-4 text-center heading font-weight-bold">联系我们的房产投资专家</h2>
+							<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="images/Tingting.jpg" alt="Card image cap">
+    
+  </div>
+  <div class="card text-center card1">
+   <div class="container">
+    <h5>微信扫码</h5>
+    <div class="row team p-4" >
+    	<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"></div><div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">微信扫码</div>
+    	
+    </div>
+    <img src="images/TingtingQR.jpg"  >
+    <div class="row team p-4" >
+    	<div class="col-sm-10 col-md-10 col-lg-10 col-xl-10"><p>微信扫码</p></div><div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+    		<a href="#"><img src="images/WeChat.jpg" style="width: 30px;"></a></div>
+    	
+    </div>
+    </div>
+
+    
+  </div>
+  <div class="card ">
+    <img class="card-img-top" src="images/ping.jpg" alt="Card image cap" >
+    </div>
+      <div class="card text-center card1">
+   <div class="container">
+    <h5>微信扫码</h5>
+    <div class="row team p-4" >
+    	<div class="col-sm-6 col-md-6 col-lg-6 col-xl-6"></div><div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">微信扫码</div>
+    	
+    </div>
+   <a href="#"> <img src="images/PingQR.jpg"></a>
+    <div class="row team p-4 " >
+    	<div class="col-sm-10 col-md-10 col-lg-10 col-xl-10"><p>微信扫码</p></div><div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+    		<a href="#"><img src="images/WeChat.jpg" style="width: 30px;" ></a></div>
+    	
+    </div>
+    </div>
+
+    
+  </div>
+  </div>
+  
+</div>
+						</div>
+						<div class="article2 text-center"><h3>Top Developers in Dubai</h3></div>
+
+
+
+						<div class="container ">
+							<div class="section8">
+							<div class="container-fluid">
+								<div class="row">
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+    <div class="card">
+    <img class="card-img-top" src="images/EMAAR.jpg" alt="Card image cap">
+    </div>
+  </div>
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+    <div class="card">
+    <img class="card-img-top" src="images/DAMAC.jpg" alt="Card image cap">
+    </div>
+  </div>
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+    <div class="card">
+    <img class="card-img-top" src="images/Dubai_Properties.jpg" alt="Card image cap">
+    </div>
+  </div>
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+    <div class="card">
+    <img class="card-img-top" src="images/MERAAS.jpg" alt="Card image cap">
+    </div>
+  </div>
+  <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+    <div class="card">
+    <img class="card-img-top" src="images/NAKHEEL.jpg" alt="Card image cap">
+    </div>
+  </div>
+  <div class=" col-sm-2 col-md-2 col-lg-2 col-xl-2">
+    <div class="card">
+    <img class="card-img-top" src="images/Select_Group.jpg" alt="Card image cap">
+    </div>
+  </div>
+</div>
+								
+							</div>
+						</div>
+						</div>
+					
+
+
+					 <div class="footer text-center py-3"><p style="color: white;">© 2018 -
+      <a href="#" style="color: white;">Royal Home Real Estate</a></p>
+    </div>
+
+</body>
+</html>
+<script>
+	function sendcustomerformdata()
+	{
+		var value = CheckRegistrationForm();
+		if(value == false)
+		{
+			return false;
+		}
+		
+		$(".submitbtn").val("Please Wait...");
+		$('.submitbtn').attr('disabled', 'disabled');
+		var formdata = '';
+		formdata = $('#registerationform').serialize();
+		$.ajax({
+			url: "http://localhost/chinees/welcome/function.php",
+			data: formdata,
+			<!-- beforeSend: function() { -->
+				 <!-- alert(formdata); -->
+			<!-- }, -->
+			success: function(result) {
+				if (result != 'false') 
+				{
+					$('.submitbtn').prop('disabled', false);
+					$(".submitbtn").val("Submit");
+					$('#defaultRegisterFormFirstName').val('');
+					$('#defaultRegisterFormLastName').val('');
+					$('#defaultRegisterFormEmail').val('');
+					$('#defaultRegisterFormPassword').val('');
+					$("html, body").animate({ scrollTop: 0 }, "slow");
+					$("#modalformclose").click();
+					$("#successmessage").show();
+					setTimeout(function() {
+						$("#successmessage").fadeOut();
+					}, 5000);
+					$("#errormessage").hide();
+					return false;
+				}
+				else
+				{
+					$('.submitbtn').prop('disabled', false);
+					$(".submitbtn").val("Submit");
+					$('#defaultRegisterFormFirstName').val('');
+					$('#defaultRegisterFormLastName').val('');
+					$('#defaultRegisterFormEmail').val('');
+					$('#defaultRegisterFormPassword').val('');
+					$("html, body").animate({ scrollTop: 0 }, "slow");
+					$("#modalformclose").click();
+					$("#errormessage").show();
+					setTimeout(function() {
+						$("#errormessage").fadeOut();
+					}, 5000);
+					$("#successmessage").hide();
+					return false;
+				}
+			}
+		});
+	}
+	
+	function CheckRegistrationForm() {
+		var defaultRegisterFormFirstName = $('#defaultRegisterFormFirstName').val();
+		if( defaultRegisterFormFirstName.length < 1)
+		{
+			alert('Please enter first name');
+			$('#defaultRegisterFormFirstName').focus();
+			return false;
+		}
+		var defaultRegisterFormLastName = $('#defaultRegisterFormLastName').val();
+		if( defaultRegisterFormLastName.length < 1)
+		{
+			alert('Please enter last name');
+			$('#defaultRegisterFormLastName').focus();
+			return false;
+		}
+		var defaultRegisterFormEmail = $('#defaultRegisterFormEmail').val();
+		if( defaultRegisterFormEmail.length < 1)
+		{
+			alert('Please enter your email');
+			$('#defaultRegisterFormEmail').focus();
+			return false;
+		}
+		var defaultRegisterFormPassword = $('#defaultRegisterFormPassword').val();
+		if( defaultRegisterFormPassword.length < 1)
+		{
+			alert('Please enter your password');
+			$('#defaultRegisterFormPassword').focus();
+			return false;
+		}
+		return true;
+	}
+	
+	
+	function sendcustomerformdata1()
+	{
+		var value = CheckRegistrationForm1();
+		if(value == false)
+		{
+			return false;
+		}
+		
+		$(".submitbtn").val("Please Wait...");
+		$('.submitbtn').attr('disabled', 'disabled');
+		var formdata = '';
+		formdata = $('#registerationform1').serialize();
+		$.ajax({
+			url: "http://localhost/chinees/welcome/function.php",
+			data: formdata,
+			<!-- beforeSend: function() { -->
+				 <!-- alert(formdata); -->
+			<!-- }, -->
+			success: function(result) {
+				if (result != 'false') 
+				{
+					$('.submitbtn').prop('disabled', false);
+					$(".submitbtn").val("Submit");
+					$('#defaultRegisterFormFirstName1').val('');
+					$('#defaultRegisterFormLastName1').val('');
+					$('#defaultRegisterFormEmail1').val('');
+					$('#defaultRegisterFormPassword1').val('');
+					$("html, body").animate({ scrollTop: 0 }, "slow");
+					$("#modalformclose").click();
+					$("#successmessage").show();
+					setTimeout(function() {
+						$("#successmessage").fadeOut();
+					}, 5000);
+					$("#errormessage").hide();
+					return false;
+				}
+				else
+				{
+					$('.submitbtn').prop('disabled', false);
+					$(".submitbtn").val("Submit");
+					$('#defaultRegisterFormFirstName1').val('');
+					$('#defaultRegisterFormLastName1').val('');
+					$('#defaultRegisterFormEmail1').val('');
+					$('#defaultRegisterFormPassword1').val('');
+					$("html, body").animate({ scrollTop: 0 }, "slow");
+					$("#modalformclose").click();
+					$("#errormessage").show();
+					setTimeout(function() {
+						$("#errormessage").fadeOut();
+					}, 5000);
+					$("#successmessage").hide();
+					return false;
+				}
+			}
+		});
+	}
+	
+	function CheckRegistrationForm1() {
+		var defaultRegisterFormFirstName1 = $('#defaultRegisterFormFirstName1').val();
+		if( defaultRegisterFormFirstName1.length < 1)
+		{
+			alert('Please enter first name');
+			$('#defaultRegisterFormFirstName1').focus();
+			return false;
+		}
+		var defaultRegisterFormLastName1 = $('#defaultRegisterFormLastName1').val();
+		if( defaultRegisterFormLastName1.length < 1)
+		{
+			alert('Please enter last name');
+			$('#defaultRegisterFormLastName1').focus();
+			return false;
+		}
+		var defaultRegisterFormEmail1 = $('#defaultRegisterFormEmail1').val();
+		if( defaultRegisterFormEmail1.length < 1)
+		{
+			alert('Please enter your email');
+			$('#defaultRegisterFormEmail1').focus();
+			return false;
+		}
+		var defaultRegisterFormPassword1 = $('#defaultRegisterFormPassword1').val();
+		if( defaultRegisterFormPassword1.length < 1)
+		{
+			alert('Please enter your password');
+			$('#defaultRegisterFormPassword1').focus();
+			return false;
+		}
+		return true;
+	}
+</script>
